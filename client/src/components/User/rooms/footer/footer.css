@@ -1,0 +1,58 @@
+.abu-footer {
+    background-color: #021945;
+    padding: 100px 0;
+    color: #eee;
+    height: 50vh;
+    z-index: 1;
+    position: absolute;
+    margin-top: -120px;
+    width: 100%;
+
+}
+
+.abu-footer-con {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.abu-footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.abu-footer-logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.abu-footer-links {
+    display: flex;
+    gap: 20px;
+}
+
+.abu-footer-links a {
+    text-decoration: none;
+    color: #eee;
+}
+
+.abu-footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .abu-footer-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .abu-footer-logo {
+        margin-bottom: 10px;
+    }
+
+    .abu-footer-links {
+        margin-top: 10px;
+    }
+}

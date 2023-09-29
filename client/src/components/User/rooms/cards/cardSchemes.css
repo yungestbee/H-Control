@@ -1,0 +1,205 @@
+.abu-card-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 80%;
+    gap: 15px;
+    padding: 20px;
+    margin: 50px auto;
+
+}
+
+
+.abu-card-scheme {
+
+    border: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+    cursor: pointer;
+}
+
+.abu-card-scheme:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+.abu-card-image {
+    padding: 5px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.abu-card-title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 1.3rem;
+    margin-bottom: 5px;
+    padding-right: 5px;
+}
+
+
+.abu-pop {
+    font-family: 'Lato', sans-serif;
+    display: flex;
+}
+
+.highlighted-text {
+    color: #d4af37;
+    font-style: bolder;
+    font-size: 20px;
+padding-top: 7px;
+}
+
+.per-night {
+    color: gray;
+    padding-top: 5px;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    padding-top: 10px;
+}
+
+.abu-font-container p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+
+    color: #777;
+
+}
+
+
+.abu-cardBtn {
+    background-color: #d4af37;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    padding: 8px 16px;
+    margin-top: 20px;
+}
+
+.abu-cardBtn-refer {
+    text-decoration: none;
+    color: black;
+}
+
+.abu-cardBtn-refer:hover {
+    color: #eee;
+}
+
+
+.abu-rating {
+    color: #d4af37;
+    font-size: 0.6rem;
+    padding-right: 220px;
+    width: 18rem;
+}
+
+.abu-title-price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    width: 17rem;
+    margin-left: -5px;
+
+}
+
+.abu-font-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+   
+}
+
+@media screen and (max-width: 1250px) {
+    .abu-card-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .abu-card-scheme {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .abu-card-grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+.abu-font-container{
+    margin-top: -5px;
+}
+    .abu-title-price {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .abu-card-title {
+        font-size: 1.2rem;
+    }
+
+    .abu-para {
+        text-align: center;
+    }
+
+    .abu-font-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .abu-font {
+        margin: 0 auto;
+    }
+
+    .abu-cardBtn {
+        margin-top: -90px;
+        padding: 2px;
+         margin-left: 85px;
+    }
+}
+
+.abu-rating {
+    color: #d4af37;
+    font-size: 0.6rem;
+    padding-right: 220px;
+
+}
+
+.abu-title-price {
+    display: flex;
+}
+
+.abu-card-title {
+    padding-left: 4px;
+    font-size: 1.3rem;
+}
+
+.abu-para {
+    font-size: 1.04rem;
+    padding-left: 36px;
+    font-weight: 400;
+    color: gray;
+}
+
+.abu-font-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.abu-font-container div {
+    display: flex;
+}
+
+.abu-font {
+    color: #d4af37;
+}
+
+.abu-font-container p {
+
+    padding-left: 10px;
+    font-size: medium;
+}

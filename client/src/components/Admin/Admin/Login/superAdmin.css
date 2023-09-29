@@ -1,0 +1,158 @@
+body {
+    background-repeat: no-repeat;
+}
+
+.mainlogin {
+    /* background-image: url("../../../imagesfolder/background.jpg"); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30rem;
+    width: 25rem;
+    margin: 20px auto;
+    border-radius: 10px;
+    background-color: rgba(21, 17, 5, 0.4)
+}
+
+.mainloginTitle {
+    font-size: 50px;
+    color: white;
+}
+
+.mainloginForm {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.maincheckbox {
+    margin-right: 10px;
+    margin-left: 10px;
+    background-color: #d4af37;
+}
+
+.mainloginForm label {
+    /* margin: 10px 0px 10px 80px; */
+    font-size: 0.8rem;
+}
+
+.mainloginInput {
+    padding: 10px;
+    background-color: white;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #d4af37;
+    fill: none;
+    /* border-radius: 10px; */
+    color: #fff
+}
+
+.mainloginInput::placeholder {
+    color: #fff
+}
+
+.mainloginButton {
+    margin-top: 20px;
+    margin-left: 45px;
+    cursor: pointer;
+    background-color: #d4af37;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    width: 10rem;
+
+}
+
+.mainloginButton:hover {
+    color: #d4af37;
+    background-color: white;
+    opacity: 0.7;
+    transition: 1s;
+}
+
+.maininputWithIcon {
+    position: relative;
+    padding: 10px;
+    /* border: 1px solid; */
+}
+
+.mainloginInput {
+    padding-left: 30px;
+}
+
+.maininputIcon {
+    position: absolute;
+    top: 34%;
+    left: 23px;
+    transform: translate(-50%);
+    color: #888;
+    pointer-events: none;
+
+}
+
+.white {
+    color: white;
+}
+
+.change {
+    color: white;
+    margin-top: 20px;
+    text-decoration: none;
+    border-bottom: 1px solid orange;
+    padding: 15px 50px;
+
+}
+
+.error-message {
+    color: #fff;
+}
+
+.errorPop {
+    color: #fff;
+    justify-self: center;
+    margin: 1rem 0rem 0rem 3.7rem
+}
+
+/* Default styles */
+
+/* ... your existing styles ... */
+
+/* Media query for screens with a maximum width of 768px */
+@media only screen and (max-width: 768px) {
+    .mainlogin {
+        width: 80%;
+        /* Adjust the width for smaller screens */
+        padding: 2rem;
+        /* Add padding for better spacing */
+        margin: 10px auto;
+    }
+
+    .mainloginTitle {
+        font-size: 36px;
+        /* Reduce font size for smaller screens */
+    }
+
+    .mainloginButton {
+        width: 100%;
+        /* Make the button fill the container width */
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .maininputWithIcon {
+        padding: 8px;
+        /* Adjust padding for smaller screens */
+    }
+
+    .mainloginInput {
+        padding-left: 25px;
+        /* Adjust padding for smaller screens */
+    }
+
+    .maininputIcon {
+        top: 30%;
+        left: 18px;
+    }
+}

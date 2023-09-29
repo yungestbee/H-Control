@@ -1,0 +1,40 @@
+.su {
+    border-radius: 5px;
+    margin: 30px auto;
+    justify-content: center;
+    text-align: center;
+    width: 80%;
+    height: 40vh;
+    background-color: #efece3;
+    position: relative;
+    z-index: 2;
+}
+
+.su p {
+    padding-top: 30px;
+}
+
+.su h3 {
+    font-weight: 400;
+}
+
+.sub {
+    padding: 20px;
+}
+
+.su input {
+    height: 6vh;
+    width: 25vw;
+    border: 1px solid #ccc;
+}
+
+.subscription-button {
+    background-color: #d4af37;
+    border-radius: 5px;
+    border: none;
+    height: 6vh;
+    cursor: pointer;
+}
+.subscription-button:hover {
+    color: #efece3;
+}

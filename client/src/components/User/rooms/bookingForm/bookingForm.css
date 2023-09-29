@@ -1,0 +1,90 @@
+.booking-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 20vw;
+    background-color: #efece3;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+  padding: 10px;
+}
+
+.booking-form h2 {
+    padding: 12px;
+    margin-bottom: 12px;
+    font-size: 24px;
+    color: #333;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.booking-form label {
+    display: inline-block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+}
+
+.booking-form input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-family: 'Roboto Serif', serif;
+    font-weight: 500;
+}
+
+.booking-form p {
+    margin: 10px 0;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+
+.booking-form .amount-heading {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.booking-form .amount-heading p {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 3px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.pay-now-button {
+    background-color: #d4af37;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border: none;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.pay-now-button:hover {
+    color: #efece3;
+}
+
+
+
+@media (max-width: 500px) {
+    .booking-form {
+        max-width: 100%;
+    }
+}

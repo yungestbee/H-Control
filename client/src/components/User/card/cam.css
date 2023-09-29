@@ -1,0 +1,22 @@
+.kol{
+    margin: .5vw;
+    display: grid;
+    grid-template-columns: 10vw 20vw  25vw  15vw 15vw 5vw ;
+    font-size: 1.5vw;
+    background-color:  whitesmoke;
+    align-items: center;
+color: black;
+
+
+
+    
+    
+}
+
+.ko{
+    color: white;
+    display: grid;
+    grid-template-columns: 10vw  20vw 26vw 10vw 10vw 20vw;
+    align-items: center;
+    font-size: 1vw;
+}
